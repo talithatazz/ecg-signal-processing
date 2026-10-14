@@ -5,6 +5,7 @@ Proyek ini merupakan aplikasi berbasis *Graphical User Interface* (GUI) mengguna
 
 Implementasi difokuskan pada penerapan konsep *Discrete Wavelet Transform* (DWT), konstruksi filter digital, konvolusi manual, serta deteksi kandidat puncak R menggunakan algoritma berbasis ambang amplitudo.
 
+LINK GITHUB : https://github.com/talithatazz/ecg-signal-processing.git 
 ---
 
 ## Tujuan
