@@ -22,7 +22,7 @@ Implementasi difokuskan pada penerapan konsep *Discrete Wavelet Transform* (DWT)
 | Komponen           | Keterangan                                                           |
 | ------------------ | -------------------------------------------------------------------- |
 | Bahasa pemrograman | MATLAB                                                               |
-| Format program     | `.mlx`                                                                 |
+| Format program     | `.m`                                                                 |
 | Antarmuka          | MATLAB UI components (`uifigure`, `uipanel`, `uitabgroup`, `uiaxes`) |
 | Metode pemrosesan  | Filter wavelet manual dan konvolusi berbasis perulangan              |
 | Filter wavelet     | Daubechies-2 (db2), empat koefisien filter                           |
@@ -150,12 +150,12 @@ ECG CSV / Simulated Signal
 
 1. Unduh atau *clone* repository ini.
 2. Buka MATLAB.
-3. Pastikan file `ecg-signal-processing.m` berada di *Current Folder* MATLAB.
+3. Pastikan file `GUI_EKG_Manual.m` berada di *Current Folder* MATLAB.
 4. Jika menggunakan data eksternal, sesuaikan lokasi file `mitbih_test.csv` pada bagian pemuatan data.
 5. Jalankan perintah berikut pada MATLAB Command Window:
 
 ```matlab
-ecg-signal-processing
+GUI_EKG_Manual
 ```
 
 6. Setelah GUI terbuka, klik tombol **Action** pada panel Process.
@@ -169,7 +169,7 @@ Jika file CSV tidak dapat dibaca atau dimensinya tidak sesuai dengan kondisi pro
 
 ecg-signal-processing/
 ├── README.md
-├── ecg-signal-processing.mlx
+├── GUI_EKG_Manual.m
 ├── screenshots/
    ├── gui-interface.png
    ├── filter-bank.png
